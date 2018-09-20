@@ -1,0 +1,53 @@
+{
+  "name": "demo",
+  "version": "1.0.8",
+  "description": "beidou example simple",
+  "scripts": {
+    "start": "beidou start --port=6003 --env=prod --daemon --workers=1 --title=demo",
+    "test": "beidou start --port=6003 --env=test --daemon --workers=1 --title=demo",
+    "debug": "beidou debug",
+    "stop": "beidou stop [--title=demo]",
+    "dev": "beidou dev",
+    "build": "beidou build",
+    "build:node": "beidou build --target=node",
+    "lint": "eslint --fix --ext .jsx,.js app client config"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^4.11.0",
+    "eslint-config-beidou": "^1.0.8",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
+  },
+  "dependencies": {
+    "antd": "^3.8.2",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
+    "beidou-cli": "^1.0.8",
+    "beidou-core": "^1.0.8",
+    "crypto": "^1.0.1",
+    "egg-http-proxy": "^0.1.0",
+    "element-react": "^1.4.20",
+    "element-theme-default": "^1.4.13",
+    "i": "^0.3.6",
+    "md5": "^2.2.1",
+    "npm": "^6.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.1.2",
+    "react-polyfills": "^0.0.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT",
+  "boilerplate": {
+    "name": "beidou-example-simple",
+    "version": "1.0.8",
+    "description": "beidou example simple"
+  }
+}
